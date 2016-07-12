@@ -6,7 +6,7 @@ import Template exposing (..)
 fooTest : Test
 fooTest =
   test
-  "First test"
+  "Foo test"
   (assertEqual 0 foo)
 
 tests : Test
