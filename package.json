@@ -1,0 +1,15 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test-build": "elm make test/TestMain.elm --output test/out/TestMain.js",
+    "test-run": "node test/out/TestMain.js",
+    "test": "rmdir /s /q \"test/out\" & npm run -s test-build & npm run -s test-run"
+  },
+  "devDependencies": {
+    "elm": "^0.17.0"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
